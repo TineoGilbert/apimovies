@@ -23,6 +23,8 @@ btnPrevious.addEventListener('click', ()=>{
 const bringMovies = async ()=>{
 
     try{
+        
+        //Please use your own APIKEY here//
 
         const res = await fetch(`https://api.themoviedb.org/3/movie/popular?api_key=320a0dbd2a0890f2eb08badd9e5e80f3&page=${page}`);
         console.log(res);
